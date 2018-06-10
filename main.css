@@ -47,10 +47,34 @@ table {
 	border-spacing: 0;
 }
 
+body {
+  background: #EEDFA6
+}
+
 .visible {
   display: block;
 }
 
 .hidden {
   display: none;
+}
+
+.prompt-text {
+  text-align: center;
+  font-size: 5em;
+  margin-top: 50px;
+}
+
+.choice {
+  width: 100%;
+  font-size: 5em;
+  border: 1px solid black;
+  background: #4782c9;
+  color: #ecf0f1;
+}
+
+.choices {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
